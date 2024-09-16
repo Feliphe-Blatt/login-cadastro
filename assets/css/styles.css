@@ -1,0 +1,104 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100dvh;
+  background-color: rgb(224, 229, 231);
+}
+
+#form-container {
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: solid 1px rgba(0, 0, 0, 0.1);
+  border-radius: .5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.col-md-6.order-md-1 {
+  padding-top: 2rem;
+}
+.row.align-items-center {
+  align-content: center;
+  height: 100%;
+}
+.img-fluid {
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.2));
+}
+
+h5 {
+  font-weight: bolder;
+}
+
+form {
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: .5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+#form-container .form-control {
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: .5rem .5rem .5rem 0;
+  transition: all 0.1s ease-in-out;
+}
+#form-container .form-control:focus {
+  border-color: #6C63FF;
+  box-shadow: none;
+}
+
+
+#form-container .form-floating label {
+  margin-left: 1rem;
+  color: #222;
+  transition: all 0.1s ease-in-out;
+}
+#form-container .form-floating > .form-control:focus~label {
+  color: #6C63FF;
+}
+
+
+#form-container a {
+  color: #222;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+#form-container a:hover {
+  color: #6C63FF;
+}
+
+
+.btn {
+  width: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+}
+
+
+.form-check-input:checked {
+  border-color: #222;
+  background-color: #212529;
+}
+.form-check-input:checked:focus {
+  border-color: #222;
+  background-color: #212529;
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.25);
+}
+.form-check-input:focus {
+  border-color: #222;
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.25);
+}
+
+.form-select-dark {
+  background-color: #343a40;
+  color: #ffffff;
+  border: 1px solid #ced4da;
+  transition: all 0.2s ease-in-out;
+}
+.form-select-dark:focus {
+  border-color: #6C63FF;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem #6C63FF;
+}

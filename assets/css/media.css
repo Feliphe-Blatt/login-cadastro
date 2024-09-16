@@ -1,0 +1,10 @@
+/* Media Query Desktop */
+@media (min-width: 768px) {
+  .btn {
+    max-width: 8rem;
+  }
+
+  .col-md-6.order-md-1 {
+    padding-top: 0;
+  }
+}
